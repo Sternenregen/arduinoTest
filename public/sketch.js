@@ -39,6 +39,7 @@ function draw() {
 function sendData() {
   data = {msg: true}
   socket.emit('arduino', data);
+  print("sending");
 }
 
 function printMsg(data) {
