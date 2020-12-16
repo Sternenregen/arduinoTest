@@ -31,6 +31,7 @@ function draw() {
   if (serialController.read() > 0 && serialController.hasData()) {
     console.log(serialController.read());
     background(255,0,255);
+    sendData();
   }
 
 }
