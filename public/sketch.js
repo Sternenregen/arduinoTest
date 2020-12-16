@@ -44,6 +44,7 @@ function sendData() {
 
 function printMsg(data) {
   print("Touch");
+  background(255,0,0);
 }
 
 // init serial connection
